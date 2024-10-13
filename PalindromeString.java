@@ -1,12 +1,12 @@
 class PalindromeString {
     public static void main(String[] args) {
-        String str = "abccb";
+        String str = "abccba";
         if (booleanornot(str)) {
-            System.out.println("string is palindrome"); // You need to make the method static or create an object.
+            System.out.println("String is palindrome");
         } else {
-            System.out.println("string is not palindrome");
+            System.out.println("String is not palindrome");
         }
-
+        // You need to make the method static or create an object.
     }
 
     // Method should be static if you want to call it directly from the main method
@@ -25,4 +25,5 @@ class PalindromeString {
 
         return true; // It's a palindrome
     }
+
 }
