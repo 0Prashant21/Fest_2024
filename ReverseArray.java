@@ -1,6 +1,6 @@
 public class ReverseArray {
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5};
+        int[] arr = { 1, 2, 3, 4, 5 };
         int n = arr.length;
 
         System.out.println("Original array: ");
@@ -20,4 +20,5 @@ public class ReverseArray {
             System.out.print(num + " ");
         }
     }
+
 }
