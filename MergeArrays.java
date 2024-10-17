@@ -5,7 +5,6 @@ public class MergeArrays {
 
         int[] mergedArray = new int[arr1.length + arr2.length];
 
-        // Copy elements from arr1
         for (int i = 0; i < arr1.length; i++) {
             mergedArray[i] = arr1[i];
         }
